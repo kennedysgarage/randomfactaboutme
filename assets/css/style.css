@@ -1,0 +1,164 @@
+/* ========================================================= Main ===*/
+html, body{
+    background-color: #f7f7f7;
+    color: #252429;
+    font-size: 1em;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 400;
+    line-height: 1.45;
+    width: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+.border{
+  border: 10px solid #252429;
+  border-bottom: 0;
+  min-height: 100vh;
+  width: 100%;
+}
+.border:after{
+  background: #252429;
+  bottom: 0;
+  content: " ";
+  height: 10px;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: 41;
+}
+.main{
+  background-color: #fff;
+  min-height: 98vh;
+  padding: 0 0 30px;
+}
+/* ========================================================= Header ===*/
+header{
+
+}
+/* ------
+-- Nav --
+------ */
+nav{
+
+}
+nav ul{
+
+}
+nav li{
+
+}
+nav a{
+
+}
+/* ========================================================= Main ===*/
+.container{
+  text-align: center;
+}
+#content{
+max-width: 900px;
+margin: 200px auto;
+text-align: center;
+	-webkit-animation: 3s ease;
+	-moz-animation: 3s ease;
+	-ms-animation: 3s ease;
+	-o-animation: 3s ease;
+	animation: 3s ease;
+	-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
+	-ms-animation-name: fadeIn;
+	-o-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+h1,h3{
+  margin: 0;
+}
+h3{
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+h3{
+  margin: 0 0 60px 0;
+}
+.quote{
+  margin: 0 0 60px;
+}
+.quote #quoteDisplay{
+  margin: 0;
+}
+button{
+  background: none;
+  border: 1px solid #252429;
+  border-radius: 2px;
+  font-size: 14px;
+  padding: 10px 15px;
+  outline: none;
+  font-weight: 800;
+  text-transform: uppercase;
+  -webkit-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+	-moz-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+	-ms-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+	-o-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+	transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+}
+button:hover{
+  background-color: #69F0AE;
+}
+.banana{
+  font-size: 40px;
+  position: absolute;
+  right: 50px;
+  bottom: 45px;
+}
+/* ========================================================= Footer ===*/
+footer{
+
+}
+/* ========================================================= Animation ===*/
+@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-moz-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-ms-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-o-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+/* ========================================================= Adapt ===*/
+@media all and (min-width: 41em){
+  body{font-size: 1.125em;}
+  .container{
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .row{
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+  .col-12 { width: 100%; }
+  .col-9 { width: 75%; }
+  .col-8 { width: 66.7%; }
+  .col-6 { width: 50%; }
+  .col-4 { width: 33.3%; }
+  .col-3 { width: 25%; }
+}
+@media all and (min-width: 960px){
+
+}
